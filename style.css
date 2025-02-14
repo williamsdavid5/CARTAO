@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(38, 38, 38);
+    font-family: sans-serif;
+}
+
+#janela {
+    background-color: rgb(174, 174, 174);
+    /* padding: 45px 20px; */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.numeroCartao {
+    width: 80px;
+}
+
+.data {
+    width: 50px;
+}
+
+input {
+    width: 350px;
+}
+
+#cartao {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#cartao img {
+    width: 400px;
+    /* position: absolute; */
+}
+
+h1,
+p {
+    /* margin: 10px 0px; */
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#numeroNoCartao {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -100px;
+    width: 250px;
+    text-align: left;
+}
+
+#dataNoCartao {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -250px;
+    font-weight: lighter;
+    font-size: 15px;
+    width: 100px;
+}
+
+#nomeNoCartao {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: -250px;
+    max-width: 100px;
+    text-align: left;
+}
+
+#bancoNoCartao {
+    position: absolute;
+    margin-top: -180px;
+    margin-left: -280px;
+    width: 100px;
+    text-align: left;
+}
