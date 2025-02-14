@@ -80,8 +80,8 @@ p {
 #nomeNoCartao {
     position: absolute;
     margin-top: 180px;
-    margin-left: -250px;
-    max-width: 100px;
+    margin-left: -50px;
+    max-width: 300px;
     text-align: left;
 }
 
